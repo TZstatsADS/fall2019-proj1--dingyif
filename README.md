@@ -2,27 +2,31 @@
 ## Fall 2019
 ## Project 1: A "data story" on the songs of our times
 
-<img src="figs/title1.jpeg" width="500">
+![image](figs/title1.jpeg)
 
-### [Project Description](doc/)
-This is the first and only *individual* (as opposed to *team*) this semester. 
+### [Project Description](doc/Proj1_desc.md)
 
-Term: Fall 2019
++ Projec title: Is Music a Represenatation of Social Movement?
++ This project is conducted by Dingyi Fang (df2709).
 
-+ Projec title: Lorem ipsum dolor sit amet
-+ This project is conducted by [your name]
++ Project summary: Here I conduct an analysis about the relationship between lyrics and social movement. In generally, this was done by using text mining, wordcloud and sentiment analysis for different genre across different periods. This study showed that during there was a dramatic change in top 10 words between 1970s and 1980s. Moreover, the setiment like anger, sadness appeared to dominate the entire genre. 
 
-+ Project summary: [a short summary] Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+![image](figs/women.jpg)
+
+### [Project Report](doc/Project1_df2709_dingyif.html)
+
+### [Project Code](doc/Project1_df2709_dingyif.Rmd)
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
 ```
 proj/
-├── lib/
-├── data/
-├── doc/
-├── figs/
-└── output/
+|-- R/
+|-- data/
+|-- doc/
+|-- figs/
+|-- output/
+|-- analysis.R
 ```
 
 Please see each subfolder for a README file.
